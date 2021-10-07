@@ -1,0 +1,20 @@
+﻿  Source.cpp
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,16): error C2672: 'begin': no matching overloaded function found
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1916): message : see declaration of 'std::begin'
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): message : With the following template arguments:
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): message : '_Container=int []'
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int []'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,16): error C2672: 'end': no matching overloaded function found
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1926): message : see declaration of 'std::end'
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): message : With the following template arguments:
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): message : '_Container=int []'
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int []'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\initializer_list(63): message : see declaration of 'std::end'
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): error C3536: '<begin>$L2': cannot be used before it is initialized
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,19): error C3536: '<end>$L2': cannot be used before it is initialized
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(65,17): error C2100: illegal indirection
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Source.cpp(8,15): error C2660: 'textfileTask': function does not take 0 arguments
+C:\Users\olegg\source\repos\Lab2_Partb\Lab2_Partb\Header.h(7,6): message : see declaration of 'textfileTask'
